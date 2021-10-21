@@ -19,3 +19,5 @@ print(a_list)
 heapq.heappop(b_list)
 print(b_list)
 
+# heapq.heappushpop(heap, item) : 새 항목을 힙헤 추가한 후 가장 작은 항목을 제거 후 반환
+# heapq.merge(*iterables) : 여러 개의 정렬된 반복 가능한 객체를 병합 
