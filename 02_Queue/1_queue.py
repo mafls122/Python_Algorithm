@@ -11,7 +11,7 @@ q_list.append(5)
 q_list.append(6)
 q_list.popleft()
 
-print(q_list)
+print(q_list)  # deque([3, 4, 5, 6])
 
 '''
 queue

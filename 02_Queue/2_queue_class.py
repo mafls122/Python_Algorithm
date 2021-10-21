@@ -57,3 +57,14 @@ if __name__ == '__main__':
     print("큐 peek : {}".format(queue.peek()))
     print("큐가 비어있는가? : {}".format(queue.isEmpty()))
     print(queue)
+
+    '''
+    큐에 숫자 0~9를 추가
+    큐 크기 : 10
+    [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+    큐 peek : 0
+    큐 deqeue : 0
+    큐 peek : 1
+    큐가 비어있는가? : False
+    [9, 8, 7, 6, 5, 4, 3, 2, 1]
+    '''

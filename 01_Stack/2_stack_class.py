@@ -44,3 +44,13 @@ if __name__ == '__main__':
     print("스택 pop : {}".format(stack.pop()))
     print("스택이 비어있는가? : {}".format(stack.isEmpty()))
     print(stack)
+
+    '''
+    스택에 0~9까지 숫자 추가
+    스택 크기 : 10
+    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    스택 peek : 9
+    스택 pop : 9
+    스택이 비어있는가? : False
+    [0, 1, 2, 3, 4, 5, 6, 7, 8] 
+    '''
