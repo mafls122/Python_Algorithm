@@ -8,10 +8,9 @@ def fib(n):
         memo[n] = 1
         return 1
     else:
-        res = fib(n-1) + fib(n-2)
-        memo[n] = res
+        memo[n] =  fib(n-1) + fib(n-2)
         # print(memo)
-        return res
+        return memo[n]
 
 if __name__ == '__main__':
     # 피보나치수열이란 1,2항은 1이며 그 뒤 모든 항은 바로 앞 두항의 합인 수열
